@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19036" started-at="2018-09-13T07:00:56Z" finished-at="2018-09-13T07:01:15Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="19036" started-at="2018-09-13T07:00:56Z" finished-at="2018-09-13T07:01:15Z">
+      <class name="com.action.demo.ActionDemo">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.action.demo.ActionDemo@2f7a2457]" name="beforeTest" is-config="true" duration-ms="6979" started-at="2018-09-13T12:30:56Z" finished-at="2018-09-13T12:31:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.action.demo.FrameDemo@17c68925]" name="beforeTest" is-config="true" duration-ms="5315" started-at="2018-09-13T12:31:03Z" finished-at="2018-09-13T12:31:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="resizableOperation()[pri:0, instance:com.action.demo.ActionDemo@2f7a2457]" name="resizableOperation" duration-ms="2134" started-at="2018-09-13T12:31:08Z" finished-at="2018-09-13T12:31:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resizableOperation -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.action.demo.ActionDemo@2f7a2457]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-09-13T12:31:13Z" finished-at="2018-09-13T12:31:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.action.demo.FrameDemo@17c68925]" name="afterTest" is-config="true" duration-ms="1303" started-at="2018-09-13T12:31:13Z" finished-at="2018-09-13T12:31:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.action.demo.ActionDemo -->
+      <class name="com.action.demo.FrameDemo">
+        <test-method status="PASS" signature="verifyForMultipleFrames()[pri:0, instance:com.action.demo.FrameDemo@17c68925]" name="verifyForMultipleFrames" duration-ms="3293" started-at="2018-09-13T12:31:10Z" finished-at="2018-09-13T12:31:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForMultipleFrames -->
+      </class> <!-- com.action.demo.FrameDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
